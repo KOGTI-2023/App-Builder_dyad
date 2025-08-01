@@ -62,7 +62,7 @@ const ALWAYS_INCLUDE_FILES = ["package.json", "vercel.json", ".gitignore"];
 // Why are we not using path.join here?
 // Because we have already normalized the path to use /.
 const OMITTED_FILES = [
-  "src/components/ui",
+  // "src/components/ui",
   "eslint.config",
   "tsconfig.json",
 
